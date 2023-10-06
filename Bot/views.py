@@ -10,7 +10,7 @@ import requests
 from .serializers import BotSerializer
 from rest_framework import status
 
-BOT_TOKEN="5550655096:AAEshSjOtMdaYWugp7Nb0Eej8Qq9RMemdT8"
+BOT_TOKEN=""
 
 bot_telegram = telegram.Bot(token=BOT_TOKEN)
 
